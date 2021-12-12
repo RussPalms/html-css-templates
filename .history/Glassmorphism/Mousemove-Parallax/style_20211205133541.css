@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapi.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-size: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+section .imgBx {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(galactic.jpg);
+	background-size: 100%;
+}
